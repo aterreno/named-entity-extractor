@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/opennlp-tools-1.5.2-incubating-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opennlp-maxent-3.0.2-incubating-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
