@@ -1,6 +1,6 @@
 class NamedEntity {
-    NamedEntityType type;
-    String value;
+    public NamedEntityType type;
+    public String value;
 
     public NamedEntity(NamedEntityType type, String value) {
         this.type = type;

@@ -5,5 +5,6 @@ enum NamedEntityType {
     DATE,
     TIME,
     PERCENTAGE,
-    MONEY
+    MONEY,
+    COMMERCIAL_PLACE
 }
