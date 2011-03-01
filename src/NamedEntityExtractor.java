@@ -38,10 +38,8 @@ class NamedEntityExtractor {
                 buf.append(tokens[i]);
                 if (i < span.getEnd() - 1) buf.append(" ");
             }
-            NamedEntity ne = new NamedEntity();
-            ne.type = type;
-            ne.value = buf.toString();
-            entities.add(ne);
+
+            entities.add(new NamedEntity(type, buf.toString()));
         }
     }
 
